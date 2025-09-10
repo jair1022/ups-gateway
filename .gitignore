@@ -1,19 +1,41 @@
+# Laravel & PHP
+/vendor
+/storage/*.key
+/public/storage
 /.phpunit.cache
+/.phpunit.result.cache
+/composer.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+auth.json
+
+# Node / Frontend
 /node_modules
 /public/build
 /public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.env.backup
-.env.production
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-auth.json
+/public/mix-manifest.json
 npm-debug.log
 yarn-error.log
-/.fleet
+
+# IDEs & Editors
 /.idea
 /.vscode
+/.fleet
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Logs & caches
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Vite
+/.vite
